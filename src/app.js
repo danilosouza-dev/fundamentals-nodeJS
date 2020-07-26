@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-const repositories = [];
+const repositories = []
 
 function validateId(req, res, next) {
   const { id } = req.params;
